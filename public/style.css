@@ -1,0 +1,272 @@
+
+/* ===============BODY=============== */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.15;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ===============HEADER=============== */
+
+#wp-header{
+    background-color: #000000;
+}
+
+#wp-header #top-header .top-header-info{
+    color: #eeeeee;
+    font-size: 14px;
+}
+
+#wp-header #nav-header .navbar-brand{
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+#wp-header #nav-header a.nav-link{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 5px 15px;
+}
+
+#wp-header #nav-header li.nav-item .dropdown-menu{
+    top: 46px;
+}
+
+#wp-header #nav-header a.nav-link:hover,
+#wp-header #nav-header li.nav-item a.dropdown-item:hover
+{
+    color: #e2524a;
+}
+
+#wp-header #nav-header li.nav-item a.dropdown-item{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5c5b5b;
+    padding-left: 30px;
+    padding-right: 75px;
+    padding-top: 8px;
+}
+
+/* ===============BANNER=============== */
+
+#wp-banner{
+    padding-bottom: 80px;
+    border: 1px solid #eeeeee;
+}
+
+#banner-info{
+    margin-top: 80px;
+}
+
+#banner-info .banner-info-detail {
+    background-color: #f4f4f4;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#banner-info .banner-info-detail p{
+    font-size: 16px;
+    color: #434141;
+    font-weight: 600;
+}
+
+#banner-info .banner-info-detail i{
+    font-size: 45px;
+}
+
+/* ===============CONTENT=============== */
+
+/* ===============new product=============== */
+
+#wp-content .content-title{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+ .content-title h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #343434;
+}
+
+ .content-title p{
+    font-size: 14px;
+    color: #837d7d;
+}
+
+.product img{
+    transition: all 0.5s;
+}
+
+.product:hover img{
+    transform: scale(1.05);
+}
+
+.product .product-img a{
+    display: block;
+    overflow: hidden;
+}
+
+.product .product-info{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.product .product-info .feedback{
+    color: #ffa500;
+    margin-bottom: 10px;
+}
+
+.product .product-info .product-title{
+    font-size: 14px;
+    font-weight: 600;
+    color: #e2524a;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.product .product-info .currenct-price{
+    font-size: 14px;
+    color: #514545;
+}
+
+/* ===============banner content=============== */
+
+#banner-content a.banner-img{
+    display: block;
+    position: relative;
+}
+
+#banner-content #banner-shoes{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+#banner-content #banner-shoes p{
+    font-size: 48px;
+    color: #343434;
+}
+
+#banner-content #banner-shoes a#banner-shoes-more{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #f8f8f8;
+    text-decoration: none;
+    padding: 15px 31px;
+    background-color: #000000;
+    border: 1px solid #eeeeee;
+}
+
+/* ===============top sale product=============== */
+
+#top-sale-product{
+    padding-bottom: 80px;
+    border: 1px solid #eeeeee;
+}
+
+.owl-dots{
+    display: none;
+}
+
+.owl-nav .owl-prev span,
+.owl-nav .owl-next span {
+    padding: 0px 9px;
+    background-color: #343434;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.owl-nav .owl-prev span:hover,
+.owl-nav .owl-next span:hover {
+    background-color: #e2524a;
+}
+
+/* ===============share=============== */
+
+
+#share .post-share .post-share-info{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#share .post-share .post-share-info .post-share-topic{
+    font-size: 11px;
+    color: #313131;
+    margin-top: 15px;
+}
+
+#share .post-share .post-share-info .post-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #141414;
+    margin-bottom: 15px;
+}
+
+#share .post-share .post-share-info .post-time{
+    font-size: 14px;
+    color: #6c757d;
+}
+
+#share .post-share .post-share-info .post-desc{
+    font-size: 14px;
+    color: #343434;
+}
+
+#share #show-more{
+    margin-top: 50px;
+    margin-bottom: 65px;
+}
+
+#share a.post-show-more{
+    padding: 8px 47px;
+    display: inline-block;
+    font-size: 14px;
+    color: #585858;
+    text-decoration: none;
+    border: 1px solid #eeeeee;
+}
+
+/* ===============FOOTER=============== */
+
+#footer {
+    background-color: #212121;
+    padding-top: 80px;
+    padding-bottom: 95px;
+}
+
+#footer .box-title{
+    font-weight: 600;
+    color: #e2524a;
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+
+#footer .box-info p,
+#footer .box-info a{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#footer .box-info a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+/* ===============COPYRIGHT=============== */
+
+#copyright{
+    background-color: #e2524a;
+}
+
+#copyright .text-copyright{
+    font-weight: 600;
+    font-size: 14px;
+    color: #dcdcdc;
+    margin-top: 16px;
+}
